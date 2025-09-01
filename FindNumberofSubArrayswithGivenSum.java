@@ -13,7 +13,7 @@ package com.arrays;
  * - This approach works correctly for **arrays with non-negative numbers** only.
  * - For arrays with negative numbers, a prefix-sum + hashmap approach is needed.
  */
-public class FindNumberOfSubArraysWithGivenSum {
+public class FindNumberOfSubArrayswithGivenSum {
 
     public static void main(String[] args) {
         int[] arr = { 1, 2, 2, 3, 1 };
