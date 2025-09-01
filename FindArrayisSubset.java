@@ -12,7 +12,7 @@ import java.util.Set;
  *    - If any element is not present in the HashSet, return false.
  * 3. If all elements are found, return true (arr is a subset of arr1).
  */
-public class FindArrayIsSubset {
+public class FindArrayisSubset {
 
     public static void main(String[] args) {
         int arr1[] = { 5, 6, 8, 9, 2, 3 };
