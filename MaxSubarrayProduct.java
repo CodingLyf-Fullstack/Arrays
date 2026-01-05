@@ -16,11 +16,11 @@ public class MaxSubarrayProduct {
     public static void main(String[] args) {
         int[] arr = { 2, 3, -2, 4 };
         System.err.println("Max Product of Subarray: " + findMaxProductOfSubarray(arr));
-        // Expected Output: 6 → subarray [2,3]
+        // Expected Output: 6 -> subarray [2,3]
 
         int[] arr1 = { 1, -2, -3, 4, -1, 2, 1 };
         System.err.println("Max Product of Subarray: " + findMaxProductOfSubarray(arr1));
-        // Expected Output: 48 → subarray [-2, -3, 4, -1, 2, 1]
+        // Expected Output: 24 -> subarray [-2, -3, 4, -1, 2, 1]
     }
 
     private static int findMaxProductOfSubarray(int[] arr) {
